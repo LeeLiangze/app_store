@@ -1,0 +1,8 @@
+
+.appdist-header {position:relative;border-bottom:1px solid rgba(208,208,208,.3);background-color:#fff;font-size:0;}
+.appdist-header .navbar {position:relative;width:1024px;margin:0 auto;padding:15px 0;}
+.appdist-header .logoLink {display:inline-block;}
+.appdist-header .site-nav {float: right;margin:0;padding:0;font-size:16px;}
+.appdist-header .site-nav li {margin-left:16px;line-height:39px;color:#9b9b9b;cursor: default;}
+.appdist-header .site-nav li a {color:#9b9b9b;text-decoration:none;cursor: pointer;}
+.appdist-header .site-nav li a:hover {color:#4a4a4a}

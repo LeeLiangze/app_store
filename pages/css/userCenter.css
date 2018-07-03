@@ -1,0 +1,252 @@
+/* css reset */
+*{
+    box-sizing: border-box;
+}
+body, p, form,ol,li,ul,input{
+    margin:0; 
+    padding:0;
+}   
+ol,li,ul{
+    list-style:none;
+}
+img{
+    display: block;
+    width: auto;
+    max-width: 100%;
+}
+input,button{
+    outline:none;
+    resize:none;
+    border:0;
+}
+a{
+    text-decoration:none;
+}
+.clear-fix{
+    clear: both
+}
+
+
+/* css 用户中心和修改密码公用一个css*/
+body{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+header{
+    overflow: hidden;
+    padding-top: 20px;
+}
+.indexImg{
+    float: left;
+}
+.signout_button{
+    float: right;
+    border: 1px solid #0081cc;
+    color: #0081cc;
+    font-size: 16px;
+    border-radius: 4px;
+    line-height: 42px;
+    padding: 0 30px;
+}
+form{
+    width: 100%;
+}
+.user_name{
+    width: 80%;
+    display: block;
+    margin: 12px auto 30px auto;; 
+    font-size: 30px;
+    color: #0081cc;
+    text-align: center;
+    height: auto;
+    padding: 0;
+    border: none;
+    line-height: normal;
+}
+nav#tabs > ul{
+    margin: 0px auto 50px auto;
+    max-width: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+nav#tabs > ul > li{
+    width: 45%;
+    border-bottom: 1px solid #BABFC3;
+    font-size: 16px;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+}
+nav#tabs > ul > li > a{
+    display: block;
+}
+nav#tabs .icon {
+    display: inline-block;
+    height: 48px;
+    width: 36px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-image: url('../img/userIcon.png');
+}
+.icon_user{
+    background-position: -36px 0px;
+}
+.tab_selected .icon_user{
+    background-position: -36px -48px;
+}
+.icon_pwd{
+    background-position: 0px 0px;
+}
+.tab_selected .icon_pwd{
+    background-position: 0px -48px;
+}
+nav#tabs .text {
+    vertical-align: middle;
+    display: inline-block;
+    color: #BABFC3;
+}
+#tabs_info{
+    float: left;
+}
+#tabs_pwd{
+    float:right;
+}
+.tab_selected .text{
+    color: #0081cc !important;
+}
+.tab_selected{
+    border-bottom: 1px solid #0081cc !important;
+    cursor: default !important;
+}
+
+#user_input > ul >li{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: block;
+    border-bottom: 1px solid #BABFC3;
+}
+#user_input label{
+    position: absolute;
+    width: 28px;
+    left:5px;
+    vertical-align: middle;
+    white-space: nowrap;
+    color: #505556;
+    font-size: 14px;
+    line-height: 53px;
+}
+.icon_edit{
+    width: 48px;
+    height: 53px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url('../img/userIcon.png');
+    background-repeat: no-repeat;
+    background-position: -66px -45px;
+    cursor: pointer;
+}
+.edit_value,.show_value{
+    padding-left: 40px;
+}
+.edit_value {
+    overflow: hidden;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.show_value input{
+    display: block;
+    height: 53px;
+    line-height: 53px;
+    width: 90%;
+    color: #8f9296;
+    font-size: 14px;
+}
+
+.edit_value input{
+    display: block;
+    float: left;
+    line-height: 46px;
+    height: 46px;
+    border: 1px solid #0081cc;
+    padding: 0 8px;
+    border-radius: 4px;
+    width: 240px; 
+}
+.edit_value .btn{
+    line-height: 46px;
+    width: 112px;
+    float: right;
+    background-color: #0081cc;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+}
+.now_edit{
+    border: 0 !important ;
+}
+.hide ,.now_edit .show_value ,.now_edit .icon_edit{
+    display: none;
+}
+.now_edit .hide {
+    display: block;
+}
+.now_edit label{
+    line-height: 50px;
+}
+
+#user_input_pwd input {
+    display: block;
+    line-height: 50px;
+    width: 100%;
+    height: 50px;
+    padding: 0 8px;
+    border-radius: 5px;
+    border: 1px solid #BABFC3;
+    background-color: #fff;
+}
+#user_input_pwd input:focus{
+    border: 1px solid #0081cc;
+}
+#user_input_pwd ul{
+    margin-bottom: 24px;
+}
+#user_input_pwd li{
+    margin-bottom: 14px;
+}
+.pwd_submit{
+    opacity: 0.7;
+    border-radius: 4px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    background-color: #0081cc;
+    color: #0081cc;
+    color: #fff;
+    transition: all .25s;
+    text-align: center;
+    cursor: pointer;
+}
+.user_box{
+    overflow: hidden;
+    height: 270px;
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    margin: 0px auto;
+}
+#user_input,#user_input_pwd{
+    width: 100%;
+    transition: all 0.6s;
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+

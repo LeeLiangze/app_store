@@ -1,0 +1,26 @@
+.navbar-wrapper {
+    /* border-bottom: 1px solid rgba(208,208,208,.3); */
+    background-color: #fff;
+    font-size: 0;
+}
+.navbar-wrapper,.navbar-wrapper .middle-wrapper{position:relative}
+.navbar-wrapper .navbar-header-wrap{position:relative;background-color:#fff;padding:25px 0;}
+.middle-wrapper{margin:0 auto;width:1024px}
+.navbar-wrapper .logoLink{display:inline-block;} 
+.navbar-wrapper .site-nav{float: right;margin:0;padding:0;font-size:16px;}
+.navbar-wrapper .site-nav li{margin-left:16px;line-height:32px;color:#9b9b9b;-webkit-transition:all .25s;transition:all .25s;}
+.list-inline>li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navbar-wrapper .site-nav li a{color:#9b9b9b;text-decoration:none}
+#homePage .ng-hide {display:none;}
+
+.appdist-header {position:relative;border-bottom:1px solid rgba(208,208,208,.3);background-color:#fff;font-size:0;}
+.appdist-header .navbar {position:relative;width:1024px;margin:0 auto;padding:15px 0;}
+.appdist-header .logoLink {display:inline-block;}
+.appdist-header .site-nav {float: right;margin:0;padding:0;font-size:16px;}
+.appdist-header .site-nav li {margin-left:16px;line-height:39px;color:#9b9b9b;cursor: default;}
+.appdist-header .site-nav li a {color:#9b9b9b;text-decoration:none;cursor: pointer;}
+.appdist-header .site-nav li a:hover {color:#339dd9;}

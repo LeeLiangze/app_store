@@ -1,0 +1,32 @@
+{
+	"compilerOptions": {
+		/* Basic Options */
+		"target": "es3",
+		"module": "commonjs",
+		"lib": [
+			"dom",
+			"es6"
+		],
+		"allowJs": false,
+		"checkJs": false,
+		"declaration": false,
+		"outDir": "./dist",
+		"removeComments": false,
+		"locale": "zh-cn",
+		/* Strict Type-Checking Options */
+		"strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": false,
+		"noImplicitThis": true,
+		"alwaysStrict": true,
+		/* Additional Checks */
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitUseStrict": false,
+		/* Module Resolution Options */
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true
+	}
+}

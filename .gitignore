@@ -1,0 +1,9 @@
+/dist
+package-lock.json
+/.idea
+/app/js
+/app/pages
+run
+logs
+app/view
+/node_modules

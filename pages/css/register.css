@@ -1,0 +1,156 @@
+@charset "utf-8";
+#register{
+	margin:2px;
+	min-width: 350px;
+}
+#indexImg{
+	margin-top: 20px;
+	margin-left: 5px;
+	height: 40px;
+	width: auto;
+    max-width: 100%;
+}
+#indexImg #icore{
+	display: block;
+    width: auto;
+    max-width: 100%;
+ }
+#ff{
+	margin: 10px auto 30px auto;
+	max-width: 342px;
+	width: 100%;
+	overflow: hidden;
+}
+#title{
+	overflow: hidden;
+	margin-bottom: 45px;
+	margin: 10px 10% 45px 10%;
+	text-align: center;
+ }
+ #title:before{
+    background-color: #BABFC3;
+}
+ #title span{
+ 	text-align: center;
+	box-sizing: border-box;
+ 	font-size:24px;
+ 	display: inline-block;
+	vertical-align: middle;
+	padding: 8px 40px;
+ }
+ #title:before,  #title:after {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    height: 1px;
+    background-color: #BABFC3;
+    margin: 0 0% 0 -50%;
+}
+#title:after{
+	background-color: #BABFC3;
+	margin: 0 -50% 0 0%;
+}
+#imgPassword{
+	height:28px;
+	width:200px;
+	float: left;
+	outline:none;
+	display:block;
+	padding:10px;
+	clear:left;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+	border-radius: 5px;
+    border: 1px solid #BABFC3;
+    background-color: #fff;
+}
+#imgPass{
+	margin: 5px;
+ }
+#warning{
+	padding-left: 5px;
+	max-width: 320px;
+	width: 100%;
+	margin: 0px auto 0px auto;
+}
+.nowar{
+   color: #ffffff;
+}
+.war{
+	color: #e2644c;
+}
+#warning ul{
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+#email,#userId{
+	outline:none;
+	height:25px;
+	display:block;
+	padding:10px;
+	clear:left;
+	margin: 10px auto 10px auto;
+	max-width: 320px;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 5px;
+    border: 1px solid #BABFC3;
+    background-color: #fff;
+}
+#register input:hover{
+	border:1px solid #608DDC;
+}
+#loginBtn,#registerBtn{
+	cursor: pointer;
+	height:25px;
+	display:block;
+	padding:10px;
+	clear:left;
+	font-size:15px;
+	margin: 10px auto 10px auto;
+	max-width: 320px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 5px;
+    border: 1px solid #BABFC3;
+	background-color: #fff;
+	color:#fff;
+}
+#loginBtn{
+	background-color:#8ec31f;
+}
+#registerBtn{
+	background-color:#339dd9;
+}
+#loginBtn:hover{
+	background-color:#93D50D;
+}
+#registerBtn:hover{
+	background-color:#0595F5;
+}
+.btn{
+	background-color:#333333;
+	color:#fff;
+}
+#ss{
+	width:300px;
+	padding:10px;
+	display:block;
+	color:#ababab;
+	text-align:left;
+	font-size:13px;
+	border-radius: 5px;
+    border: 1px solid #BABFC3;
+    background-color: #fff;
+}
+#ss:hover{
+   
+	background-color:#233333;
+}

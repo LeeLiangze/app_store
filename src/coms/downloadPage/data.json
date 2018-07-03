@@ -1,0 +1,27 @@
+{
+	"returnCode": 0,
+	"returnMessage": "成功",
+	"bean": {
+		"id": 1,
+		"uid": 1,
+		"appname": "koa",
+		"bundleid": "1234567",
+		"iconurl": "http://www.10086.cn/ha_head/images/logo.png",
+		"version": "1.0.1",
+		"platform": "IOS",
+		"packtype": "普通",
+		"downurl": "",
+		"description": "test",
+		"created_at": "2017-08-01T23:10:31.000Z",
+		"updated_at": "2017-08-01T23:10:35.000Z",
+		"user": {
+			"id": 1,
+			"username": "test",
+			"email": "admin@admin.com",
+			"pno": 87258379,
+			"department": "tech",
+			"pass": "123456",
+			"remember_token": "bGlhbmd6ZToxMjM0NTY="
+		}
+	}
+}
