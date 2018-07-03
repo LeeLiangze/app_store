@@ -1,11 +1,7 @@
-# cmos-dist使用文档
-
 ## 初始化项目命令行
 
 ````
 依次执行如下命令
-npm set registry http://192.168.100.10:20899
-npm set @types:registry https://registry.npmjs.org/
 npm install 
 
 //启动nodeJs服务
@@ -59,11 +55,3 @@ addClass(dom，'class1','class2')
 ### 使用方法
 本项目提供了post从model->service->controller->router.js的整个流程的例子，供参考。
 
-### 连接数据库
-- 打开navicat数据库可视化工具；
-- 新建数据库，选择mysql；
-- connect name:appdist  
-  Host Name/IP Address:192.168.100.70  
-  port:23306  
-  User Name: appdist  
-  Save password: sdz^J6%5uIFB
